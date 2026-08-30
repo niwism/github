@@ -1,6 +1,6 @@
 # dog-profile
 <p align="center">
-  <img src="img/logo.png" width="200" alt="dog-profile logo">
+  <img src="dog-profile/img/logo.png" width="200" alt="dog-profile logo">
 </p>
 ## 📑 目次
 - [プロジェクト概要](#プロジェクト概要)
