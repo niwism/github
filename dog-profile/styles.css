@@ -123,3 +123,9 @@ footer {
   color: var(--meissen-blue);
   font-size: 1.1em;
 }
+
+.phone-img {
+  height: 28px;
+  vertical-align: middle;
+  margin-left: 6px;
+}
