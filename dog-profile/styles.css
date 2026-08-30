@@ -1,0 +1,125 @@
+/* --- カラーパレット（ロゴ＋Meissen寄せ） --- */
+:root {
+  --accent-blue: #3A8DFF;
+  --accent-gold: #D9B45B;
+  --accent-green: #4CAF50;
+  --accent-teal: #2AA8A8;
+}
+
+/* --- 全体 --- */
+body {
+  background-color: #fbf5f3; /* Meissen寄せの淡いピンクベージュ */
+  color: #4A3B32; /* ダークブラウン */
+  font-family: "Noto Sans JP", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  line-height: 1.8;
+  margin: 0;
+  padding: 0;
+}
+
+/* --- ロゴ --- */
+.site-logo {
+  width: 120px;
+  margin-bottom: 12px;
+}
+
+/* --- ロゴ風タイポグラフィ（欧文＋日本語教科書体） --- */
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+  font-family:
+      "Playfair Display", "Times New Roman", serif,
+      "Yu Kyokasho", "YuMincho", "Noto Serif JP", serif;
+  letter-spacing: 0.12em;
+  font-weight: 500;
+  color: #2F2F2F;
+}
+
+/* --- ヘッダー --- */
+header {
+  background-color: #f8fbfc;
+  padding: 24px;
+  text-align: center;
+  border-bottom: 1px solid #E8D7D0;
+}
+
+header p {
+  margin: 4px 0 0;
+  font-size: 1rem;
+  color: #7A6A5C;
+}
+
+/* --- メイン --- */
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 32px 20px;
+}
+
+/* --- セクション --- */
+section {
+  background-color: #f8fbfc;
+  padding: 24px;
+  border-radius: 8px;
+  margin-bottom: 32px;
+  border: 1px solid #E8D7D0;
+}
+
+section h2 {
+  font-size: 1.2rem;
+  letter-spacing: 0.1em;
+  margin-bottom: 16px;
+  color: #2F2F2F;
+  border-left: 4px solid var(--accent-gold);
+  padding-left: 8px;
+}
+
+section h3 {
+  font-size: 1rem;
+  margin-top: 16px;
+  margin-bottom: 8px;
+  color: #2F2F2F;
+}
+
+/* --- リスト --- */
+ul {
+  padding-left: 20px;
+}
+
+/* --- リンク --- */
+a {
+  color: var(--accent-blue);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* --- 写真グリッド --- */
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+}
+
+.photo-grid img {
+  width: 100%;
+  border-radius: 6px;
+  border: 1px solid #E8D7D0;
+}
+
+/* --- フッター --- */
+footer {
+  text-align: center;
+  padding: 16px;
+  background-color: #E8D7D0;
+  color: #7A6A5C;
+  margin-top: 40px;
+}
+
+/* --- 性別アイコン --- */
+.sex-icon {
+  margin-left: 4px;
+  color: var(--meissen-blue);
+  font-size: 1.1em;
+}
